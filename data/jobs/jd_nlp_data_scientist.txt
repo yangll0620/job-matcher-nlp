@@ -1,0 +1,17 @@
+Position: NLP Data Scientist  
+Location: Remote  
+Company: LangTech
+
+Responsibilities:
+- Build and fine-tune NLP models for text classification and summarization  
+- Work with pre-trained models like BERT, RoBERTa, GPT  
+- Collaborate with data engineers and product teams  
+
+Requirements:
+- 2+ years experience with NLP/ML projects  
+- Strong Python, PyTorch, HuggingFace Transformers  
+- Experience with cloud deployment (AWS, GCP)
+
+Nice to Have:
+- Experience with explainable AI
+- M.S. or PhD in Computer Science or related
