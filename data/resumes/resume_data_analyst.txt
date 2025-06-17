@@ -1,0 +1,22 @@
+Title: Data Analyst  
+Location: New York, NY
+
+Experience:
+- Company: Finlytics  
+  Role: Data Analyst  
+  Duration: Feb 2021 – Present  
+  • Performed data analysis on financial transactions using SQL and Pandas  
+  • Automated reporting pipelines using Python and Tableau  
+  • Collaborated with engineering teams to clean and validate large datasets
+
+- Company: MarketX  
+  Role: Business Analyst Intern  
+  Duration: Jun 2020 – Dec 2020  
+  • Built Excel and Tableau dashboards to monitor customer churn  
+  • Conducted A/B testing and statistical significance testing on campaigns
+
+Skills:
+SQL, Excel, Tableau, Pandas, NumPy, Statistics, A/B Testing, Data Visualization
+
+Education:
+B.A. in Statistics, Columbia University

@@ -1,0 +1,22 @@
+Title: Machine Learning Engineer – NLP Focus  
+Location: San Francisco, CA
+
+Experience:
+- Company: AlphaAI  
+  Role: Machine Learning Engineer  
+  Duration: Jan 2022 – Present  
+  • Built NLP models for customer intent classification using BERT and spaCy  
+  • Deployed models using Docker and AWS Lambda  
+  • Reduced inference latency by 40% through model optimization
+
+- Company: DataWise Inc.  
+  Role: Data Scientist Intern  
+  Duration: Jun 2021 – Dec 2021  
+  • Developed a topic modeling pipeline using LDA and BERTopic  
+  • Created dashboards using Streamlit and Plotly for client reports
+
+Skills:
+Python, PyTorch, Transformers, HuggingFace, AWS, Docker, NLP, BERT, Streamlit
+
+Education:
+M.S. in Computer Science, UC Berkeley

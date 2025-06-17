@@ -1,0 +1,17 @@
+Position: Backend Software Engineer  
+Location: Hybrid – Austin, TX  
+Company: DevStack
+
+Responsibilities:
+- Design and implement RESTful APIs  
+- Manage backend services using FastAPI and PostgreSQL  
+- Collaborate with frontend team to deliver scalable products
+
+Requirements:
+- 3+ years software engineering experience  
+- Proficiency in Python, FastAPI, PostgreSQL  
+- Experience with containerization (Docker)
+
+Nice to Have:
+- Experience with microservices
+- Familiarity with Redis or message queues

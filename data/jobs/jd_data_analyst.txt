@@ -1,0 +1,17 @@
+Position: Data Analyst  
+Location: Boston, MA  
+Company: HealthIQ
+
+Responsibilities:
+- Analyze patient and claims data to support decision making  
+- Develop dashboards using Tableau and SQL  
+- Conduct cohort analysis and A/B testing
+
+Requirements:
+- 1–3 years experience in data analysis  
+- Proficiency in SQL, Excel, and Python  
+- Experience with healthcare data is a plus
+
+Preferred:
+- Strong communication skills
+- Degree in Statistics, Mathematics, or similar field

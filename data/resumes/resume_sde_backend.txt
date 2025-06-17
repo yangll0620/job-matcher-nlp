@@ -1,0 +1,22 @@
+Title: Software Engineer – Backend  
+Location: Seattle, WA
+
+Experience:
+- Company: CloudCore  
+  Role: Backend Software Engineer  
+  Duration: Apr 2020 – Present  
+  • Designed RESTful APIs with Flask and FastAPI  
+  • Integrated PostgreSQL databases and Redis caching for performance  
+  • Wrote unit and integration tests, achieving 90% coverage
+
+- Company: BitStack  
+  Role: Junior Developer  
+  Duration: Jul 2018 – Mar 2020  
+  • Maintained legacy Python and Node.js codebases  
+  • Improved API response time by 25% using asynchronous I/O
+
+Skills:
+Python, FastAPI, Flask, PostgreSQL, Redis, Docker, Git, REST API
+
+Education:
+B.S. in Computer Engineering, University of Washington
