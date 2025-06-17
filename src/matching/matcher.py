@@ -1,6 +1,5 @@
 from sentence_transformers import SentenceTransformer, util
 from keybert import KeyBERT
-from typing import Dict
 
 class JobMatcher:
     def __init__(self, model_name='all-MiniLM-L6-v2'):
@@ -8,7 +7,7 @@ class JobMatcher:
         self.kw_model = KeyBERT(model_name)
 
 
-    def match(self, resume_txt: str, jd_txt: str, top_n: int = 5) -> Dict[str, any]:
+    def match(self, resume_txt: str, jd_txt: str, top_n: int = 5) -> dict[str, any]:
         """
         Match a resume to a job description and return similarity score and keyword analysis.
 
@@ -18,12 +17,13 @@ class JobMatcher:
             top_n (int): Number of keywords to extract.
 
         Returns:
-            Dict[str, Any]: Dictionary with similarity score, matched keywords, and all extracted keywords.
+            dict[str, Any]: Dictionary with similarity score, matched keywords, and all extracted keywords.
         """
         # calculate similarity scores 
         resume_embedding = self.model.encode(resume_txt, convert_to_tensor=True)
         jd_embedding = self.model.encode(jd_txt, convert_to_tensor=True)
         score = util.cos_sim(resume_embedding, jd_embedding)
+        score = score.cpu().numpy()
 
         # Extract keywords
         resume_keywords = self.kw_model.extract_keywords(resume_txt, top_n=top_n)
@@ -36,7 +36,7 @@ class JobMatcher:
 
 
         return {
-            'similarity_scores': score.cpu().numpy(),
+            'similarity_scores': score[0][0],
             'resume_keywords': resume_keywords_set,
             'jd_keywords': jd_keywords_set,
             'matched_keywords': matched_keywords
@@ -52,5 +52,5 @@ if __name__ == "__main__":
 
     print("Similarity Score:\t", result['similarity_scores'])
     print("Resume Keywords:\t", result['resume_keywords'])
-    print("Job Description Keywords:\t", result['jd_keywords'])
+    print("Job Keywords:\t", result['jd_keywords'])
     print("Matched Keywords:\t", result['matched_keywords'])
